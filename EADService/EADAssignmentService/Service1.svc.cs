@@ -21,7 +21,7 @@ namespace EADAssignmentService
             db = new EmployeeContext();
         }
 
-        public Employee Create(Employee employee)
+        public Employee CreateDemo(Employee employee)
         {
             if (employee ==null)
             {

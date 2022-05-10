@@ -49,7 +49,7 @@ namespace EADAssignmentClient.Controllers
             try
             {
                 // TODO: Add insert logic here
-                service.Create(employee);
+                service.CreateDemo(employee);
                 return RedirectToAction("Index");
             }
             catch

@@ -18,7 +18,7 @@ namespace EADAssignmentService
         string GetData(int value);
 
         [OperationContract]
-        Employee Create(Employee employee);
+        Employee CreateDemo(Employee employee);
 
         [OperationContract]
         List<Employee> FindAll();

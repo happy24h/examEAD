@@ -12,3 +12,16 @@ F:\HocWeb\EAD\BT Webservice\EADAssignmentService\EADAssignmentService\obj\Debug\
 F:\HocWeb\EAD\BT Webservice\EADAssignmentService\EADAssignmentService\obj\Debug\EADAssignmentService.pdb
 F:\HocWeb\EAD\BT Webservice\EADAssignmentService\EADAssignmentService\obj\Debug\EADAssignmentService.Migrations.InitTable.resources
 F:\HocWeb\EAD\BT Webservice\EADAssignmentService\EADAssignmentService\obj\Debug\EADAssignmentService.csproj.GenerateResource.cache
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\bin\EADAssignmentService.dll.config
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\bin\EADAssignmentService.dll
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\bin\EADAssignmentService.pdb
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\bin\EntityFramework.dll
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\bin\EntityFramework.SqlServer.dll
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\bin\EntityFramework.xml
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\bin\EntityFramework.SqlServer.xml
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\obj\Debug\EADAssignmentService.csproj.AssemblyReference.cache
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\obj\Debug\EADAssignmentService.Migrations.InitTable.resources
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\obj\Debug\EADAssignmentService.csproj.GenerateResource.cache
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\obj\Debug\EADAssignmentService.csproj.CoreCompileInputs.cache
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\obj\Debug\EADAssignmentService.dll
+E:\WorkSpace\dotnet_mvc\EADService\EADAssignmentService\obj\Debug\EADAssignmentService.pdb

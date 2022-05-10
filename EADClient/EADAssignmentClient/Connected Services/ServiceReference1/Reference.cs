@@ -177,11 +177,11 @@ namespace EADAssignmentClient.ServiceReference1 {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetData", ReplyAction="http://tempuri.org/IService1/GetDataResponse")]
         System.Threading.Tasks.Task<string> GetDataAsync(int value);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Create", ReplyAction="http://tempuri.org/IService1/CreateResponse")]
-        EADAssignmentClient.ServiceReference1.Employee Create(EADAssignmentClient.ServiceReference1.Employee employee);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/CreateDemo", ReplyAction="http://tempuri.org/IService1/CreateDemoResponse")]
+        EADAssignmentClient.ServiceReference1.Employee CreateDemo(EADAssignmentClient.ServiceReference1.Employee employee);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Create", ReplyAction="http://tempuri.org/IService1/CreateResponse")]
-        System.Threading.Tasks.Task<EADAssignmentClient.ServiceReference1.Employee> CreateAsync(EADAssignmentClient.ServiceReference1.Employee employee);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/CreateDemo", ReplyAction="http://tempuri.org/IService1/CreateDemoResponse")]
+        System.Threading.Tasks.Task<EADAssignmentClient.ServiceReference1.Employee> CreateDemoAsync(EADAssignmentClient.ServiceReference1.Employee employee);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/FindAll", ReplyAction="http://tempuri.org/IService1/FindAllResponse")]
         EADAssignmentClient.ServiceReference1.Employee[] FindAll();
@@ -237,12 +237,12 @@ namespace EADAssignmentClient.ServiceReference1 {
             return base.Channel.GetDataAsync(value);
         }
         
-        public EADAssignmentClient.ServiceReference1.Employee Create(EADAssignmentClient.ServiceReference1.Employee employee) {
-            return base.Channel.Create(employee);
+        public EADAssignmentClient.ServiceReference1.Employee CreateDemo(EADAssignmentClient.ServiceReference1.Employee employee) {
+            return base.Channel.CreateDemo(employee);
         }
         
-        public System.Threading.Tasks.Task<EADAssignmentClient.ServiceReference1.Employee> CreateAsync(EADAssignmentClient.ServiceReference1.Employee employee) {
-            return base.Channel.CreateAsync(employee);
+        public System.Threading.Tasks.Task<EADAssignmentClient.ServiceReference1.Employee> CreateDemoAsync(EADAssignmentClient.ServiceReference1.Employee employee) {
+            return base.Channel.CreateDemoAsync(employee);
         }
         
         public EADAssignmentClient.ServiceReference1.Employee[] FindAll() {
